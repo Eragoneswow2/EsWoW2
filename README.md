@@ -1,5 +1,5 @@
 # EsWoW2©
-Añadido de nuevo contenido y actualizaciones de traducciones esES/esMX de la página del proyecto.
+Anexo de nuevo contenido y actualizaciones de traducciones esES/esMX de la página del proyecto.
 
 Toda información o contenido viene derivado del mismo proyecto, con la intención de continuarlo desinteresadamente
 para mantener la comunidad al día.
