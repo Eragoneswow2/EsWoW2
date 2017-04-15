@@ -249,3 +249,77 @@ UPDATE `locales_creature_text` SET `entry`='27227', `groupid`='2', `id`='0', `te
 
 -- Supervisor Kaleiki --
 UPDATE `locales_creature_text` SET `entry`='27238', `groupid`='0', `id`='0', `text_loc6`='Mi hermoso aserradero... ¡Tú! ¡Vas a morir por esto!' WHERE (`entry`='27238') AND (`groupid`='0') AND (`id`='0');
+
+-- Obispo Calle --
+UPDATE `locales_creature_text` SET `entry`='27246', `groupid`='0', `id`='0', `text_loc6`='Me alegra que hayas venido, $ghijo mío:hija mía;. La protección de la Luz se ha ido desvaneciendo en ti.' WHERE (`entry`='27246') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27246', `groupid`='1', `id`='0', `text_loc6`='Ya está hecho. Sirve bien a la Luz.' WHERE (`entry`='27246') AND (`groupid`='1') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27246', `groupid`='2', `id`='0', `text_loc6`='¿Cómo te atreves a interrumpir nuestro honrado trabajo?' WHERE (`entry`='27246') AND (`groupid`='2') AND (`id`='0');
+
+-- Guardaespaldas devoto --
+UPDATE `locales_creature_text` SET `entry`='27247', `groupid`='0', `id`='0', `text_loc6`='Eh, ¿quién ha tocado la campana?' WHERE (`entry`='27247') AND (`groupid`='0') AND (`id`='0');
+
+-- Boticaria Vicky Levine --
+UPDATE `locales_creature_text` SET `entry`='27248', `groupid`='0', `id`='0', `text_loc6`='¡Schlemiel!' WHERE (`entry`='27248') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27248', `groupid`='1', `id`='0', `text_loc6`='Parece ser que has echado a perder esta partida de añublo. ¿Qué tienes que decir al respecto?' WHERE (`entry`='27248') AND (`groupid`='1') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27248', `groupid`='2', `id`='0', `text_loc6`='¿Lo siento? ¡¿LO SIENTO?! ¡Lo siento por ti!' WHERE (`entry`='27248') AND (`groupid`='2') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27248', `groupid`='3', `id`='0', `text_loc6`='¡Vaya! ¡Al final si que ha funcionado! Que raro.' WHERE (`entry`='27248') AND (`groupid`='3') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27248', `groupid`='4', `id`='0', `text_loc6`='¡Hará falta una buena limpieza por aquí y un nuevo asistente!' WHERE (`entry`='27248') AND (`groupid`='4') AND (`id`='0');
+
+-- Boticario auxiliar Schlemiel --
+UPDATE `locales_creature_text` SET `entry`='27250', `groupid`='0', `id`='0', `text_loc6`='¿Eh?' WHERE (`entry`='27250') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27250', `groupid`='1', `id`='0', `text_loc6`='Pero... ¡Si he seguido minuciosamente todas tus instrucciones! ¿Lo siento?' WHERE (`entry`='27250') AND (`groupid`='1') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27250', `groupid`='2', `id`='0', `text_loc6`='¡Espera!' WHERE (`entry`='27250') AND (`groupid`='2') AND (`id`='0');
+
+-- Habitante de Hibergarde indefenso --
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='0', `id`='0', `text_loc6`='¿Estás $gseguro:segura; que sabes cómo volar con esta cosa? Se tambalea un poco.' WHERE (`entry`='27315') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='0', `id`='1', `text_loc6`='No quiero sonar como un necio, pero, ¿podrías volar un poco más cerca del suelo? ¡Odio las alturas!' WHERE (`entry`='27315') AND (`groupid`='0') AND (`id`='1');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='0', `id`='2', `text_loc6`='¡He escogido un mal día para dejar de beber!' WHERE (`entry`='27315') AND (`groupid`='0') AND (`id`='2');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='0', `id`='3', `text_loc6`='Me estoy mareando un poco... buuuuf...' WHERE (`entry`='27315') AND (`groupid`='0') AND (`id`='3');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='0', `id`='4', `text_loc6`='¡Me has salvado la vida! ¡Gracias!' WHERE (`entry`='27315') AND (`groupid`='0') AND (`id`='4');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='0', `id`='5', `text_loc6`='¡Eres mi ángel de la guarda! ¡Como un caballero blanco has surgido de los cielos y me has rescatado del foso de la condena eterna!' WHERE (`entry`='27315') AND (`groupid`='0') AND (`id`='5');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='1', `id`='0', `text_loc6`='¿Cómo podría pagarte por todo esto, $gamigo:amiga;?' WHERE (`entry`='27315') AND (`groupid`='1') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='1', `id`='1', `text_loc6`='¡HURRA!' WHERE (`entry`='27315') AND (`groupid`='1') AND (`id`='1');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='1', `id`='2', `text_loc6`='La generosidad no se ha perdido en $gél:ella;, Urik. ¡Gracias, héroe!' WHERE (`entry`='27315') AND (`groupid`='1') AND (`id`='2');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='1', `id`='3', `text_loc6`='Las puertas de mi tienda siempre estarán abiertas para ti, $gamigo:amiga;.' WHERE (`entry`='27315') AND (`groupid`='1') AND (`id`='3');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='1', `id`='4', `text_loc6`='¡Al fin a salvo! ¡Gracias, $gforastero:forastera;!' WHERE (`entry`='27315') AND (`groupid`='1') AND (`id`='4');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='1', `id`='5', `text_loc6`='¡Gracias por tu ayuda, héroe!' WHERE (`entry`='27315') AND (`groupid`='1') AND (`id`='5');
+UPDATE `locales_creature_text` SET `entry`='27315', `groupid`='1', `id`='6', `text_loc6`='¡Lo conseguimos! ¡Lo hemos conseguido!' WHERE (`entry`='27315') AND (`groupid`='1') AND (`id`='6');
+
+-- Tur Patafuria --
+UPDATE `locales_creature_text` SET `entry`='27328', `groupid`='0', `id`='0', `text_loc6`='Quédate detrás de mí, $r. Haré todo lo posible para protegerte.' WHERE (`entry`='27328') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27328', `groupid`='1', `id`='0', `text_loc6`='Mi libertad no significa nada si no logramos salvar a Ursoc. Apresúrate, $N.' WHERE (`entry`='27328') AND (`groupid`='1') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27328', `groupid`='2', `id`='0', `text_loc6`='Cuidaré de ti y de tus aliados, $r.' WHERE (`entry`='27328') AND (`groupid`='2') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27328', `groupid`='3', `id`='0', `text_loc6`='Ursoc, hermano de Ursol y guardián de las tribus furbolg... ¡muéstrate!' WHERE (`entry`='27328') AND (`groupid`='3') AND (`id`='0');
+
+-- Habitante de Hibergarde indefenso --
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='0', `id`='0', `text_loc6`='¿Estás $gseguro:segura; que sabes cómo volar con esta cosa? Se tambalea un poco.' WHERE (`entry`='27336') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='0', `id`='1', `text_loc6`='No quiero sonar como un necio, pero, ¿podrías volar un poco más cerca del suelo? ¡Odio las alturas!' WHERE (`entry`='27336') AND (`groupid`='0') AND (`id`='1');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='0', `id`='2', `text_loc6`='¡He escogido un mal día para dejar de beber!' WHERE (`entry`='27336') AND (`groupid`='0') AND (`id`='2');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='0', `id`='3', `text_loc6`='Me estoy mareando un poco... buuuuf...' WHERE (`entry`='27336') AND (`groupid`='0') AND (`id`='3');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='0', `id`='4', `text_loc6`='¡Me has salvado la vida! ¡Gracias!' WHERE (`entry`='27336') AND (`groupid`='0') AND (`id`='4');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='0', `id`='5', `text_loc6`='¡Eres mi ángel de la guarda! ¡Como un caballero blanco has surgido de los cielos y me has rescatado del foso de la condena eterna!' WHERE (`entry`='27336') AND (`groupid`='0') AND (`id`='5');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='1', `id`='0', `text_loc6`='¿Cómo podría pagarte por todo esto, $gamigo:amiga;?' WHERE (`entry`='27336') AND (`groupid`='1') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='1', `id`='1', `text_loc6`='¡HURRA!' WHERE (`entry`='27336') AND (`groupid`='1') AND (`id`='1');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='1', `id`='2', `text_loc6`='La generosidad no se ha perdido en $gél:ella;, Urik. ¡Gracias, héroe!' WHERE (`entry`='27336') AND (`groupid`='1') AND (`id`='2');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='1', `id`='3', `text_loc6`='Las puertas de mi tienda siempre estarán abiertas para ti, $gamigo:amiga;.' WHERE (`entry`='27336') AND (`groupid`='1') AND (`id`='3');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='1', `id`='4', `text_loc6`='¡Al fin a salvo! ¡Gracias, $gforastero:forastera;!' WHERE (`entry`='27336') AND (`groupid`='1') AND (`id`='4');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='1', `id`='5', `text_loc6`='¡Gracias por tu ayuda, héroe!' WHERE (`entry`='27336') AND (`groupid`='1') AND (`id`='5');
+UPDATE `locales_creature_text` SET `entry`='27336', `groupid`='1', `id`='6', `text_loc6`='¡Lo conseguimos! ¡Lo hemos conseguido!' WHERE (`entry`='27336') AND (`groupid`='1') AND (`id`='6');
+
+-- Prisionero de El Embate Escarlata --
+UPDATE `locales_creature_text` SET `entry`='27349', `groupid`='0', `id`='0', `text_loc6`='%s gime, pero parece no verse afectado por la plaga.' WHERE (`entry`='27349') AND (`groupid`='0') AND (`id`='0');
+
+-- Rothin el Putrefacto --
+UPDATE `locales_creature_text` SET `entry`='27355', `groupid`='0', `id`='0', `text_loc6`='No... ¡NO! ¡¿Qué has hecho?! Tanta vermis desperdiciada... ¿qué magia podría hacer esto?' WHERE (`entry`='27355') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27355', `groupid`='1', `id`='0', `text_loc6`='$gMensajero necio:Mensajera necia;... ¡morirás por interrumpir mi trabajo!' WHERE (`entry`='27355') AND (`groupid`='1') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27355', `groupid`='2', `id`='0', `text_loc6`='Este no es el final... la muerte sólo... fortalece...' WHERE (`entry`='27355') AND (`groupid`='2') AND (`id`='0');
+
+-- Habitante de Hibergarde atrapado --
+UPDATE `locales_creature_text` SET `entry`='27359', `groupid`='0', `id`='0', `text_loc6`='¡Menos mal que has venido, $gcampeón:campeona;! ¡La bestia casi me tenía!' WHERE (`entry`='27359') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27359', `groupid`='0', `id`='1', `text_loc6`='¡Por fin! ¡Ha llegado un héroe!' WHERE (`entry`='27359') AND (`groupid`='0') AND (`id`='1');
+UPDATE `locales_creature_text` SET `entry`='27359', `groupid`='0', `id`='2', `text_loc6`='Gracias, alma bondadosa.' WHERE (`entry`='27359') AND (`groupid`='0') AND (`id`='2');
+UPDATE `locales_creature_text` SET `entry`='27359', `groupid`='0', `id`='3', `text_loc6`='Nunca te olvidaré, $gamigo:amiga;.' WHERE (`entry`='27359') AND (`groupid`='0') AND (`id`='3');
+
+-- Espíritu de Ursoc --
+UPDATE `locales_creature_text` SET `entry`='27373', `groupid`='0', `id`='0', `text_loc6`='Os doy las gracias a todos. Los antiguos druidas fueron sabios al derribar Vordrassil, ya que sus raíces se filtraban profundamente hasta la morada de un antiguo mal.' WHERE (`entry`='27373') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='27373', `groupid`='1', `id`='0', `text_loc6`='Los conoces como Dioses Antiguos. Cuidado con Yogg-Saron, la bestia de las mil fauces. Su mal se extiende más allá de las raíces de Vordrassil.' WHERE (`entry`='27373') AND (`groupid`='1') AND (`id`='0');
