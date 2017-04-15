@@ -323,3 +323,6 @@ UPDATE `locales_creature_text` SET `entry`='27359', `groupid`='0', `id`='3', `te
 -- Espíritu de Ursoc --
 UPDATE `locales_creature_text` SET `entry`='27373', `groupid`='0', `id`='0', `text_loc6`='Os doy las gracias a todos. Los antiguos druidas fueron sabios al derribar Vordrassil, ya que sus raíces se filtraban profundamente hasta la morada de un antiguo mal.' WHERE (`entry`='27373') AND (`groupid`='0') AND (`id`='0');
 UPDATE `locales_creature_text` SET `entry`='27373', `groupid`='1', `id`='0', `text_loc6`='Los conoces como Dioses Antiguos. Cuidado con Yogg-Saron, la bestia de las mil fauces. Su mal se extiende más allá de las raíces de Vordrassil.' WHERE (`entry`='27373') AND (`groupid`='1') AND (`id`='0');
+
+-- Ysida Harmon --
+UPDATE `locales_creature_text` SET `entry`='16031', `groupid`='0', `id`='0', `text_loc6`='¡Lo has logrado... has matado al barón Osahendido! ¡El Alba Argenta sabrá de tus valerosos actos!' WHERE (`entry`='16031') AND (`groupid`='0') AND (`id`='0');
