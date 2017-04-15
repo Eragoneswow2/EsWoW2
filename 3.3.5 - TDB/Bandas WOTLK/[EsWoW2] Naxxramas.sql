@@ -75,7 +75,7 @@ UPDATE `locales_creature_text` SET `entry`='15930', `groupid`='1', `id`='0', `te
 UPDATE `locales_creature_text` SET `entry`='15930', `groupid`='2', `id`='0', `text_loc6`='No... más... Feugen.' WHERE (`entry`='15930') AND (`groupid`='2') AND (`id`='0');
 
 -- Instructor Razuvious --
-UPDATE `locales_creature_text` SET `entry`='16061', `groupid`='0', `id`='0', `text_loc6`='¡Haz lo que te he enseñado' WHERE (`entry`='16061') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='16061', `groupid`='0', `id`='0', `text_loc6`='¡Haz lo que te he enseñado!' WHERE (`entry`='16061') AND (`groupid`='0') AND (`id`='0');
 UPDATE `locales_creature_text` SET `entry`='16061', `groupid`='0', `id`='1', `text_loc6`='¡El tiempo de practicar ha pasado! ¡Quiero ver lo que habéis aprendido!' WHERE (`entry`='16061') AND (`groupid`='0') AND (`id`='1');
 UPDATE `locales_creature_text` SET `entry`='16061', `groupid`='0', `id`='2', `text_loc6`='¡No les muestres piedad!' WHERE (`entry`='16061') AND (`groupid`='0') AND (`id`='2');
 UPDATE `locales_creature_text` SET `entry`='16061', `groupid`='1', `id`='0', `text_loc6`='%s suelta un grito triunfante.' WHERE (`entry`='16061') AND (`groupid`='1') AND (`id`='0');
