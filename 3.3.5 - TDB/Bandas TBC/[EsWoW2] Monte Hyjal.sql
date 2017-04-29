@@ -51,6 +51,17 @@ UPDATE `locales_creature_text` SET `entry`='17808', `groupid`='4', `id`='0', `te
 UPDATE `locales_creature_text` SET `entry`='17808', `groupid`='4', `id`='1', `text_loc6`='¡Cielo y tierra arderán!' WHERE (`entry`='17808') AND (`groupid`='4') AND (`id`='1');
 UPDATE `locales_creature_text` SET `entry`='17808', `groupid`='5', `id`='0', `text_loc6`='¡Sois defensores de un mundo condenado! ¡Huid y quizá prolonguéis vuestras patéticas vidas!' WHERE (`entry`='17808') AND (`groupid`='5') AND (`id`='0');
 
+-- Thrall --
+UPDATE `locales_creature_text` SET `entry`='17852', `groupid`='0', `id`='0', `text_loc6`='¡No me rendiré ante nadie!' WHERE (`entry`='17852') AND (`groupid`='0') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='17852', `groupid`='0', `id`='1', `text_loc6`='¡Enfrentaos a mi y pagad con vuestras vidas!' WHERE (`entry`='17852') AND (`groupid`='0') AND (`id`='1');
+UPDATE `locales_creature_text` SET `entry`='17852', `groupid`='1', `id`='0', `text_loc6`='¡Retenedlos! ¡No vaciléis!' WHERE (`entry`='17852') AND (`groupid`='1') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='17852', `groupid`='2', `id`='0', `text_loc6`='¡Preparaos para otra oleada! ¡LOK-TAR OGAR!' WHERE (`entry`='17852') AND (`groupid`='2') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='17852', `groupid`='3', `id`='0', `text_loc6`='¡Victoria o muerte!' WHERE (`entry`='17852') AND (`groupid`='3') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='17852', `groupid`='3', `id`='1', `text_loc6`='¡Manteneos firmes!' WHERE (`entry`='17852') AND (`groupid`='3') AND (`id`='1');
+UPDATE `locales_creature_text` SET `entry`='17852', `groupid`='4', `id`='0', `text_loc6`='¡Estamos acabados! ¡Retirada! Hemos fallado...' WHERE (`entry`='17852') AND (`groupid`='4') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='17852', `groupid`='5', `id`='0', `text_loc6`='Hemos jugado nuestra partida y lo hemos logrado. Ahora depende de los demás.' WHERE (`entry`='17852') AND (`groupid`='5') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='17852', `groupid`='6', `id`='0', `text_loc6`='Uraaa...' WHERE (`entry`='17852') AND (`groupid`='6') AND (`id`='0');
+
 -- Kaz'rogal --
 UPDATE `locales_creature_text` SET `entry`='17888', `groupid`='0', `id`='0', `text_loc6`='¡Entregad vuestras almas!' WHERE (`entry`='17888') AND (`groupid`='0') AND (`id`='0');
 UPDATE `locales_creature_text` SET `entry`='17888', `groupid`='0', `id`='1', `text_loc6`='¡No eres... nada!' WHERE (`entry`='17888') AND (`groupid`='0') AND (`id`='1');
