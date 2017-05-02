@@ -5,7 +5,7 @@
 UPDATE `locales_creature_text` SET `entry`='15339', `groupid`='0', `id`='0', `text_loc6`='¡Estoy rejuvenecido!' WHERE (`entry`='15339') AND (`groupid`='0') AND (`id`='0');
 UPDATE `locales_creature_text` SET `entry`='15339', `groupid`='0', `id`='1', `text_loc6`='¡Mis poderes están renovados!' WHERE (`entry`='15339') AND (`groupid`='0') AND (`id`='1');
 UPDATE `locales_creature_text` SET `entry`='15339', `groupid`='0', `id`='2', `text_loc6`='¡Mis poderes han vuelto!' WHERE (`entry`='15339') AND (`groupid`='0') AND (`id`='2');
-UPDATE `locales_creature_text` SET `entry`='15339', `groupid`='1', `id`='0', `text_loc6`='¡Proteged la ciudad a todo coste!' WHERE (`entry`='15339') AND (`groupid`='1') AND (`id`='0');
+UPDATE `locales_creature_text` SET `entry`='15339', `groupid`='1', `id`='0', `text_loc6`='¡Proteged la ciudad a todo costa!' WHERE (`entry`='15339') AND (`groupid`='1') AND (`id`='0');
 UPDATE `locales_creature_text` SET `entry`='15339', `groupid`='1', `id`='1', `text_loc6`='¡A vuestros puestos! ¡Proteged la ciudad!' WHERE (`entry`='15339') AND (`groupid`='1') AND (`id`='1');
 UPDATE `locales_creature_text` SET `entry`='15339', `groupid`='1', `id`='2', `text_loc6`='Los intrusos serán eliminados.' WHERE (`entry`='15339') AND (`groupid`='1') AND (`id`='2');
 UPDATE `locales_creature_text` SET `entry`='15339', `groupid`='2', `id`='0', `text_loc6`='¡Que las arenas del desierto se eleven y apaguen la luz del sol!' WHERE (`entry`='15339') AND (`groupid`='2') AND (`id`='0');
