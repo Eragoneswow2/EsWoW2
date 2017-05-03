@@ -22,8 +22,8 @@ UPDATE trinity_string SET `content_loc6`='¡La Horda ha perdido el control de la
 UPDATE trinity_string SET `content_loc6`='¡La Alianza ha perdido el control de las Ruinas del Atracador Vil!' WHERE entry=681;
 UPDATE trinity_string SET `content_loc6`='¡La Horda ha perdido el control de las Ruinas del Atracador Vil!' WHERE entry=682;
 UPDATE trinity_string SET `content_loc6`='¡%s ha tomado la bandera!' WHERE entry=683;
-UPDATE trinity_string SET `content_loc6`='¡%s ha capturado la bandera!' WHERE entry=684; -- Necesito que alguien confirme que sale el nombre del jugador que captura la bandera --
-UPDATE trinity_string SET `content_loc6`='¡%s ha capturado la bandera!' WHERE entry=685; -- Necesito que alguien confirme que sale el nombre del jugador que captura la bandera --
+UPDATE trinity_string SET `content_loc6`='¡La Alianza ha capturado la bandera!' WHERE entry=684;
+UPDATE trinity_string SET `content_loc6`='¡La Horda ha capturado la bandera!' WHERE entry=685;
 UPDATE trinity_string SET `content_loc6`='¡Ha caído la bandera!' WHERE entry=686;
 UPDATE trinity_string SET `content_loc6`='La bandera se ha restablecido.' WHERE entry=687;
 UPDATE trinity_string SET `content_loc6`='¡Victoria para la Alianza!' WHERE entry=600;
