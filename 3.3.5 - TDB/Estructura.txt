@@ -1,0 +1,3 @@
+SET NAMES utf8;
+ALTER TABLE `creature_text_locale` CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+INSERT IGNORE INTO `creature_text_locale` (`CreatureID`,`GroupID`,`ID`) SELECT `CreatureID`,`GroupID`,`ID` FROM `creature_text`;

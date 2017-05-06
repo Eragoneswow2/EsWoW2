@@ -11,29 +11,29 @@ UPDATE trinity_string SET `content_loc6`='La ronda 2 de la batalla por la Playa 
 UPDATE trinity_string SET `content_loc6`='La ronda 2 comenzará en 30 segundos. ¡Preparaos!' WHERE entry=10066;
 
 -- Textos generales campo de batalla --
-UPDATE `locales_creature_text` SET `entry`='29', `groupid`='1', `id`='0', `text_loc6`='¡Que comience la batalla por la Playa de los Ancestros!' WHERE (`entry`='29') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='29', `groupid`='2', `id`='0', `text_loc6`='Ronda 1: ¡Acabada!' WHERE (`entry`='29') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='1', `id`='0', `text_loc6`='¡Están atacando la Puerta del Zafiro Azul!' WHERE (`entry`='22515') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='2', `id`='0', `text_loc6`='¡Están atacando la Puerta de la Esmeralda Verde!' WHERE (`entry`='22515') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='3', `id`='0', `text_loc6`='¡Están atacando la Puerta del Sol Rojo!' WHERE (`entry`='22515') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='4', `id`='0', `text_loc6`='¡Están atacando la Puerta de la Amatista Púrpura!' WHERE (`entry`='22515') AND (`groupid`='4') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='5', `id`='0', `text_loc6`='¡Están atacando la Puerta de la Luna Amarilla!' WHERE (`entry`='22515') AND (`groupid`='5') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='6', `id`='0', `text_loc6`='¡La Puerta de la Luna Amarilla ha sido destruida!' WHERE (`entry`='22515') AND (`groupid`='6') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='7', `id`='0', `text_loc6`='¡La Puerta de la Amatista Púrpura ha sido destruida!' WHERE (`entry`='22515') AND (`groupid`='7') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='8', `id`='0', `text_loc6`='¡La Puerta del Sol Rojo ha sido destruida!' WHERE (`entry`='22515') AND (`groupid`='8') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='9', `id`='0', `text_loc6`='¡La Puerta de la Esmeralda Verde ha sido destruida!' WHERE (`entry`='22515') AND (`groupid`='9') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='10', `id`='0', `text_loc6`='¡La Puerta del Zafiro Azul ha sido destruida!' WHERE (`entry`='22515') AND (`groupid`='10') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='11', `id`='0', `text_loc6`='¡La Alianza ha tomado el Cementerio del Este!' WHERE (`entry`='22515') AND (`groupid`='11') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='12', `id`='0', `text_loc6`='¡La Alianza ha tomado el Cementerio occidental!' WHERE (`entry`='22515') AND (`groupid`='12') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='13', `id`='0', `text_loc6`='¡La Alianza ha tomado el Cementerio del sur!' WHERE (`entry`='22515') AND (`groupid`='13') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='14', `id`='0', `text_loc6`='¡La Horda ha tomado el Cementerio del Este!' WHERE (`entry`='22515') AND (`groupid`='14') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='15', `id`='0', `text_loc6`='¡La Horda ha tomado el Cementerio occidental!' WHERE (`entry`='22515') AND (`groupid`='15') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='16', `id`='0', `text_loc6`='¡La Horda ha tomado el Cementerio del sur!' WHERE (`entry`='22515') AND (`groupid`='16') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='17', `id`='0', `text_loc6`='¡Están atacando la Cámara de las Reliquias!' WHERE (`entry`='22515') AND (`groupid`='17') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22515', `groupid`='18', `id`='0', `text_loc6`='¡Han atravesado la fortaleza! ¡La reliquia de titán es vulnerable!' WHERE (`entry`='22515') AND (`groupid`='18') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='29', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡Que comience la batalla por la Playa de los Ancestros!' WHERE (`CreatureID`='29') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='29', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='Ronda 1: ¡Acabada!' WHERE (`CreatureID`='29') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡Están atacando la Puerta del Zafiro Azul!' WHERE (`CreatureID`='22515') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='¡Están atacando la Puerta de la Esmeralda Verde!' WHERE (`CreatureID`='22515') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¡Están atacando la Puerta del Sol Rojo!' WHERE (`CreatureID`='22515') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='¡Están atacando la Puerta de la Amatista Púrpura!' WHERE (`CreatureID`='22515') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='5', `ID`='0', `Locale`='esES', `text`='¡Están atacando la Puerta de la Luna Amarilla!' WHERE (`CreatureID`='22515') AND (`GroupID`='5') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='6', `ID`='0', `Locale`='esES', `text`='¡La Puerta de la Luna Amarilla ha sido destruida!' WHERE (`CreatureID`='22515') AND (`GroupID`='6') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='7', `ID`='0', `Locale`='esES', `text`='¡La Puerta de la Amatista Púrpura ha sido destruida!' WHERE (`CreatureID`='22515') AND (`GroupID`='7') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='8', `ID`='0', `Locale`='esES', `text`='¡La Puerta del Sol Rojo ha sido destruida!' WHERE (`CreatureID`='22515') AND (`GroupID`='8') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='9', `ID`='0', `Locale`='esES', `text`='¡La Puerta de la Esmeralda Verde ha sido destruida!' WHERE (`CreatureID`='22515') AND (`GroupID`='9') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='10', `ID`='0', `Locale`='esES', `text`='¡La Puerta del Zafiro Azul ha sido destruida!' WHERE (`CreatureID`='22515') AND (`GroupID`='10') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='11', `ID`='0', `Locale`='esES', `text`='¡La Alianza ha tomado el Cementerio del Este!' WHERE (`CreatureID`='22515') AND (`GroupID`='11') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='12', `ID`='0', `Locale`='esES', `text`='¡La Alianza ha tomado el Cementerio occidental!' WHERE (`CreatureID`='22515') AND (`GroupID`='12') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='13', `ID`='0', `Locale`='esES', `text`='¡La Alianza ha tomado el Cementerio del sur!' WHERE (`CreatureID`='22515') AND (`GroupID`='13') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='14', `ID`='0', `Locale`='esES', `text`='¡La Horda ha tomado el Cementerio del Este!' WHERE (`CreatureID`='22515') AND (`GroupID`='14') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='15', `ID`='0', `Locale`='esES', `text`='¡La Horda ha tomado el Cementerio occidental!' WHERE (`CreatureID`='22515') AND (`GroupID`='15') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='16', `ID`='0', `Locale`='esES', `text`='¡La Horda ha tomado el Cementerio del sur!' WHERE (`CreatureID`='22515') AND (`GroupID`='16') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='17', `ID`='0', `Locale`='esES', `text`='¡Están atacando la Cámara de las Reliquias!' WHERE (`CreatureID`='22515') AND (`GroupID`='17') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22515', `GroupID`='18', `ID`='0', `Locale`='esES', `text`='¡Han atravesado la fortaleza! ¡La reliquia de titán es vulnerable!' WHERE (`CreatureID`='22515') AND (`GroupID`='18') AND (`ID`='0');
 
 -- Rigger Chispaluz --
-UPDATE `locales_creature_text` SET `entry`='29260', `groupid`='1', `id`='0', `text_loc6`='¡El emporio de vehículos de Chispaluz abre sus puertas!' WHERE (`entry`='29260') AND (`groupid`='1') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='29260', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡El emporio de vehículos de Chispaluz abre sus puertas!' WHERE (`CreatureID`='29260') AND (`GroupID`='1') AND (`ID`='0');
 
 -- Gorgril Chispacrack --
-UPDATE `locales_creature_text` SET `entry`='29262', `groupid`='1', `id`='0', `text_loc6`='¡La tienda de vehículos de Chispacrack abre sus puertas!' WHERE (`entry`='29262') AND (`groupid`='1') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='29262', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡La tienda de vehículos de Chispacrack abre sus puertas!' WHERE (`CreatureID`='29262') AND (`GroupID`='1') AND (`ID`='0');

@@ -13,6 +13,8 @@ UPDATE trinity_string SET `content_loc6`='la herrería' WHERE entry=653;
 UPDATE trinity_string SET `content_loc6`='la granja' WHERE entry=654;
 UPDATE trinity_string SET `content_loc6`='el aserradero' WHERE entry=655;
 UPDATE trinity_string SET `content_loc6`='la mina' WHERE entry=656;
+UPDATE trinity_string SET `content_loc6`='La Alianza' WHERE entry=650;
+UPDATE trinity_string SET `content_loc6`='La Horda' WHERE entry=651;
 /*Los siguientes strings también se usan en Ojo de la Tormenta*/
 UPDATE trinity_string SET `content_loc6`='¡La Alianza ha reunido más de $1776W recursos y está próxima a la victoria!' WHERE entry=664;
 UPDATE trinity_string SET `content_loc6`='¡La Horda ha reundio más de $1777W recursos y está próxima a la victoria!' WHERE entry=665;
