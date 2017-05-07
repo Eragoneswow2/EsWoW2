@@ -2,145 +2,200 @@
 -- TEMPLO OSCURO --
 
 -- Gran señor de la guerra Naj'entus --
-UPDATE `locales_creature_text` SET `entry`='22887', `groupid`='0', `id`='0', `text_loc6`='¡Moriréis en nombre de Lady Vashj!' WHERE (`entry`='22887') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22887', `groupid`='1', `id`='0', `text_loc6`='¡Quedaos por aquí!' WHERE (`entry`='22887') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22887', `groupid`='1', `id`='1', `text_loc6`='Me encargaré de ti más tarde.' WHERE (`entry`='22887') AND (`groupid`='1') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22887', `groupid`='2', `id`='0', `text_loc6`='¡Tu éxito ha durado poco!' WHERE (`entry`='22887') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22887', `groupid`='2', `id`='1', `text_loc6`='Es hora de que te vayas.' WHERE (`entry`='22887') AND (`groupid`='2') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22887', `groupid`='3', `id`='0', `text_loc6`='¡Be\'lanen dalorai!' WHERE (`entry`='22887') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22887', `groupid`='3', `id`='1', `text_loc6`='¡La sangre... fluirá!' WHERE (`entry`='22887') AND (`groupid`='3') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22887', `groupid`='4', `id`='0', `text_loc6`='¡Bal, lamer zhita!' WHERE (`entry`='22887') AND (`groupid`='4') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22887', `groupid`='5', `id`='0', `text_loc6`='¡Mi paciencia se ha agotado! ¡Muere! ¡Muere!' WHERE (`entry`='22887') AND (`groupid`='5') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22887', `groupid`='6', `id`='0', `text_loc6`='¡Lord Illidan... os aplastará!' WHERE (`entry`='22887') AND (`groupid`='6') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22887', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡Moriréis en nombre de Lady Vashj!' WHERE (`CreatureID`='22887') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22887', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡Quedaos por aquí!' WHERE (`CreatureID`='22887') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22887', `GroupID`='1', `ID`='1', `Locale`='esES', `text`='Me encargaré de ti más tarde.' WHERE (`CreatureID`='22887') AND (`GroupID`='1') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22887', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='¡Tu éxito ha durado poco!' WHERE (`CreatureID`='22887') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22887', `GroupID`='2', `ID`='1', `Locale`='esES', `text`='Es hora de que te vayas.' WHERE (`CreatureID`='22887') AND (`GroupID`='2') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22887', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¡Be\'lanen dalorai!' WHERE (`CreatureID`='22887') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22887', `GroupID`='3', `ID`='1', `Locale`='esES', `text`='¡La sangre... fluirá!' WHERE (`CreatureID`='22887') AND (`GroupID`='3') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22887', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='¡Bal, lamer zhita!' WHERE (`CreatureID`='22887') AND (`GroupID`='4') AND (`ID`='0');
+/* (Actualizado) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='22887', `GroupID`='4', `ID`='1', `Locale`='esES', `text`='¡Mi paciencia se ha agotado! ¡Muere! ¡Muere!' WHERE (`CreatureID`='22887') AND (`GroupID`='4') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22887', `GroupID`='5', `ID`='0', `Locale`='esES', `text`='¡Lord Illidan... os aplastará!' WHERE (`CreatureID`='22887') AND (`GroupID`='5') AND (`ID`='0');
+
+-- Texto después de matar Naj'entus y Gurtogg --
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='22984', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='Oyes un ruido estridente de metal rozando contra piedra...' WHERE (`CreatureID`='22984') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22984', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='La puerta del cubil de las delicias mortales se ha abierto.' WHERE (`CreatureID`='22984') AND (`GroupID`='1') AND (`ID`='0');
 
 -- Supremus --
-UPDATE `locales_creature_text` SET `entry`='22898', `groupid`='0', `id`='0', `text_loc6`='%s fija un nuevo objetivo.' WHERE (`entry`='22898') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22898', `groupid`='1', `id`='0', `text_loc6`='¡%s golpea el suelo con ira!' WHERE (`entry`='22898') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22898', `groupid`='2', `id`='0', `text_loc6`='¡El suelo empieza a abrirse!' WHERE (`entry`='22898') AND (`groupid`='2') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22898', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='%s fija un nuevo objetivo.' WHERE (`CreatureID`='22898') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22898', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡%s golpea el suelo con ira!' WHERE (`CreatureID`='22898') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22898', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='¡El suelo empieza a abrirse!' WHERE (`CreatureID`='22898') AND (`GroupID`='2') AND (`ID`='0');
 
 -- Señor de batalla Lengua de ceniza --
-UPDATE `locales_creature_text` SET `entry`='22844', `groupid`='0', `id`='0', `text_loc6`='¡%s entra en frenesí!' WHERE (`entry`='22844') AND (`groupid`='0') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22844', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡%s entra en frenesí!' WHERE (`CreatureID`='22844') AND (`GroupID`='0') AND (`ID`='0');
 
 -- Teron Sanguino --
-UPDATE `locales_creature_text` SET `entry`='22871', `groupid`='0', `id`='0', `text_loc6`='Yo fui el primero, ya sabes. Para mí, la ruleta de la muerte ha girado numerosas veces. Ha pasado tanto tiempo... (Suspira). Tengo que ponerme al día.' WHERE (`entry`='22871') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22871', `groupid`='1', `id`='0', `text_loc6`='¡La venganza es mía!' WHERE (`entry`='22871') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22871', `groupid`='2', `id`='0', `text_loc6`='Tengo un uso para vosotros...' WHERE (`entry`='22871') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22871', `groupid`='2', `id`='1', `text_loc6`='Esto empeora.' WHERE (`entry`='22871') AND (`groupid`='2') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22871', `groupid`='3', `id`='0', `text_loc6`='¿Por qué estáis tan asustados?' WHERE (`entry`='22871') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22871', `groupid`='3', `id`='1', `text_loc6`='La muerte no es tan terrible.' WHERE (`entry`='22871') AND (`groupid`='3') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22871', `groupid`='4', `id`='0', `text_loc6`='Rendíos.' WHERE (`entry`='22871') AND (`groupid`='4') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22871', `groupid`='4', `id`='1', `text_loc6`='Tengo algo para vosotros...' WHERE (`entry`='22871') AND (`groupid`='4') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22871', `groupid`='5', `id`='0', `text_loc6`='¡Mostraréis el debido respeto!' WHERE (`entry`='22871') AND (`groupid`='5') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22871', `groupid`='6', `id`='0', `text_loc6`='La ruleta... gira... de nuevo.' WHERE (`entry`='22871') AND (`groupid`='6') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22871', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='Yo fui el primero, ya sabes. Para mí, la ruleta de la muerte ha girado numerosas veces. Ha pasado tanto tiempo... (Suspira). Tengo que ponerme al día.' WHERE (`CreatureID`='22871') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22871', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡La venganza es mía!' WHERE (`CreatureID`='22871') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22871', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='Tengo un uso para vosotros...' WHERE (`CreatureID`='22871') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22871', `GroupID`='2', `ID`='1', `Locale`='esES', `text`='Esto empeora.' WHERE (`CreatureID`='22871') AND (`GroupID`='2') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22871', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¿Por qué estáis tan asustados?' WHERE (`CreatureID`='22871') AND (`GroupID`='3') AND (`ID`='0');
+/* (Actualizado) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='22871', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='La muerte no es tan terrible.' WHERE (`CreatureID`='22871') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22871', `GroupID`='5', `ID`='0', `Locale`='esES', `text`='Rendíos.' WHERE (`CreatureID`='22871') AND (`GroupID`='5') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22871', `GroupID`='4', `ID`='1', `Locale`='esES', `text`='Tengo algo para vosotros...' WHERE (`CreatureID`='22871') AND (`GroupID`='4') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22871', `GroupID`='3', `ID`='1', `Locale`='esES', `text`='¡Mostraréis el debido respeto!' WHERE (`CreatureID`='22871') AND (`GroupID`='3') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22871', `GroupID`='6', `ID`='0', `Locale`='esES', `text`='La ruleta... gira... de nuevo.' WHERE (`CreatureID`='22871') AND (`GroupID`='6') AND (`ID`='0');
 
 -- Behemoth Mascahuesos --
-UPDATE `locales_creature_text` SET `entry`='23196', `groupid`='0', `id`='0', `text_loc6`='¡%s entra en frenesí!' WHERE (`entry`='23196') AND (`groupid`='0') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23196', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡%s entra en frenesí!' WHERE (`CreatureID`='23196') AND (`GroupID`='0') AND (`ID`='0');
 
 -- Esencia del sufrimiento --
-UPDATE `locales_creature_text` SET `entry`='23418', `groupid`='0', `id`='0', `text_loc6`='¡Solo os esperan dolor y sufrimiento!' WHERE (`entry`='23418') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23418', `groupid`='1', `id`='0', `text_loc6`='¡No me dejéis sola!' WHERE (`entry`='23418') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23418', `groupid`='2', `id`='0', `text_loc6`='¡Mirad lo que me habéis hecho hacer!' WHERE (`entry`='23418') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23418', `groupid`='2', `id`='1', `text_loc6`='¡No pregunté por esto!' WHERE (`entry`='23418') AND (`groupid`='2') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='23418', `groupid`='2', `id`='2', `text_loc6`='El dolor es solo el comienzo...' WHERE (`entry`='23418') AND (`groupid`='2') AND (`id`='2');
-UPDATE `locales_creature_text` SET `entry`='23418', `groupid`='3', `id`='0', `text_loc6`='¡No quiero volver!' WHERE (`entry`='23418') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23418', `groupid`='4', `id`='0', `text_loc6`='¿Ahora que debería hacer?' WHERE (`entry`='23418') AND (`groupid`='4') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23418', `groupid`='5', `id`='0', `text_loc6`='¡%s entra en frenesí!' WHERE (`entry`='23418') AND (`groupid`='5') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23418', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡Solo os esperan dolor y sufrimiento!' WHERE (`CreatureID`='23418') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23418', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡No me dejéis sola!' WHERE (`CreatureID`='23418') AND (`GroupID`='1') AND (`ID`='0');
+/* (Actualizado) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='23418', `GroupID`='1', `ID`='1', `Locale`='esES', `text`='¡Mirad lo que me habéis hecho hacer!' WHERE (`CreatureID`='23418') AND (`GroupID`='1') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='23418', `GroupID`='1', `ID`='2', `Locale`='esES', `text`='¡No pregunté por esto!' WHERE (`CreatureID`='23418') AND (`GroupID`='1') AND (`ID`='2');
+UPDATE `creature_text_locale` SET `CreatureID`='23418', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='El dolor es solo el comienzo...' WHERE (`CreatureID`='23418') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23418', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¡No quiero volver!' WHERE (`CreatureID`='23418') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23418', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='¿Ahora que debería hacer?' WHERE (`CreatureID`='23418') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23418', `GroupID`='5', `ID`='0', `Locale`='esES', `text`='¡%s entra en frenesí!' WHERE (`CreatureID`='23418') AND (`GroupID`='5') AND (`ID`='0');
 
 -- Esencia de deseo --
-UPDATE `locales_creature_text` SET `entry`='23419', `groupid`='0', `id`='0', `text_loc6`='Puedes tener todo lo que desees... pagando su precio.' WHERE (`entry`='23419') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23419', `groupid`='1', `id`='0', `text_loc6`='La realización está cerca.' WHERE (`entry`='23419') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23419', `groupid`='1', `id`='1', `text_loc6`='Sí, ahora os quedaréis con nosotros...' WHERE (`entry`='23419') AND (`groupid`='1') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='23419', `groupid`='1', `id`='2', `text_loc6`='Vuestro objetivo excede de vuestra comprensión.' WHERE (`entry`='23419') AND (`groupid`='1') AND (`id`='2');
-UPDATE `locales_creature_text` SET `entry`='23419', `groupid`='2', `id`='0', `text_loc6`='Tened cuidado con lo que deseáis.' WHERE (`entry`='23419') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23419', `groupid`='3', `id`='0', `text_loc6`='Estaré esperando.' WHERE (`entry`='23419') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23419', `groupid`='4', `id`='0', `text_loc6`='¡No estaré lejos!' WHERE (`entry`='23419') AND (`groupid`='4') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23419', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='Puedes tener todo lo que desees... pagando su precio.' WHERE (`CreatureID`='23419') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23419', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='La realización está cerca.' WHERE (`CreatureID`='23419') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23419', `GroupID`='1', `ID`='1', `Locale`='esES', `text`='Sí, ahora os quedaréis con nosotros...' WHERE (`CreatureID`='23419') AND (`GroupID`='1') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='23419', `GroupID`='1', `ID`='2', `Locale`='esES', `text`='Vuestro objetivo excede de vuestra comprensión.' WHERE (`CreatureID`='23419') AND (`GroupID`='1') AND (`ID`='2');
+UPDATE `creature_text_locale` SET `CreatureID`='23419', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='Tened cuidado con lo que deseáis.' WHERE (`CreatureID`='23419') AND (`GroupID`='2') AND (`ID`='0');
+/* (Actualizado) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='23419', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='Estaré esperando.' WHERE (`CreatureID`='23419') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23419', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¡No estaré lejos!' WHERE (`CreatureID`='23419') AND (`GroupID`='3') AND (`ID`='0');
 
 -- Esencia de inquina --
-UPDATE `locales_creature_text` SET `entry`='23420', `groupid`='0', `id`='0', `text_loc6`='¡Cuidado: estoy vivo!' WHERE (`entry`='23420') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23420', `groupid`='0', `id`='1', `text_loc6`='Tan... imprudentes.' WHERE (`entry`='23420') AND (`groupid`='0') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='23420', `groupid`='1', `id`='0', `text_loc6`='<risa maníaca>' WHERE (`entry`='23420') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23420', `groupid`='1', `id`='1', `text_loc6`='¡Ya basta! ¡No más!' WHERE (`entry`='23420') AND (`groupid`='1') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='23420', `groupid`='2', `id`='0', `text_loc6`='¡De rodillas!' WHERE (`entry`='23420') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23420', `groupid`='3', `id`='0', `text_loc6`='¡Cuidado, cobardes!' WHERE (`entry`='23420') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23420', `groupid`='4', `id`='0', `text_loc6`='¡No seré... ignorado!' WHERE (`entry`='23420') AND (`groupid`='4') AND (`id`='0');
+/* (Actualizado) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='23420', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡Cuidado: estoy vivo!' WHERE (`CreatureID`='23420') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23420', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='Tan... imprudentes.' WHERE (`CreatureID`='23420') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23420', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='¡Ya basta! ¡No más!' WHERE (`CreatureID`='23420') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23420', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='¡De rodillas!' WHERE (`CreatureID`='23420') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23420', `GroupID`='5', `ID`='0', `Locale`='esES', `text`='¡Cuidado, cobardes!' WHERE (`CreatureID`='23420') AND (`GroupID`='5') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23420', `GroupID`='6', `ID`='0', `Locale`='esES', `text`='¡No seré... ignorado!' WHERE (`CreatureID`='23420') AND (`GroupID`='6') AND (`ID`='0');
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='23420', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='¡%s enfurece!' WHERE (`CreatureID`='23420') AND (`GroupID`='3') AND (`ID`='0');
 
 -- Gurtogg Sangre Hirviente --
-UPDATE `locales_creature_text` SET `entry`='22948', `groupid`='0', `id`='0', `text_loc6`='La Horda... os aplastará.' WHERE (`entry`='22948') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22948', `groupid`='1', `id`='0', `text_loc6`='Hora del banquete.' WHERE (`entry`='22948') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22948', `groupid`='1', `id`='1', `text_loc6`='¡Más! ¡Quiero más!' WHERE (`entry`='22948') AND (`groupid`='1') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22948', `groupid`='2', `id`='0', `text_loc6`='Beber vuestra sangre. Comer vuestra carne.' WHERE (`entry`='22948') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22948', `groupid`='2', `id`='1', `text_loc6`='¡Estoy hambriento!' WHERE (`entry`='22948') AND (`groupid`='2') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22948', `groupid`='3', `id`='0', `text_loc6`='<balbucea>' WHERE (`entry`='22948') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22948', `groupid`='3', `id`='1', `text_loc6`='¡Rasgaré la carne de vuestros huesos!' WHERE (`entry`='22948') AND (`groupid`='3') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22948', `groupid`='4', `id`='0', `text_loc6`='Aaaargh...' WHERE (`entry`='22948') AND (`groupid`='4') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22948', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='La Horda... os aplastará.' WHERE (`CreatureID`='22948') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22948', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='Hora del banquete.' WHERE (`CreatureID`='22948') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22948', `GroupID`='1', `ID`='1', `Locale`='esES', `text`='¡Más! ¡Quiero más!' WHERE (`CreatureID`='22948') AND (`GroupID`='1') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22948', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='Beber vuestra sangre. Comer vuestra carne.' WHERE (`CreatureID`='22948') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22948', `GroupID`='2', `ID`='1', `Locale`='esES', `text`='¡Estoy hambriento!' WHERE (`CreatureID`='22948') AND (`GroupID`='2') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22948', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¡Rasgaré la carne de vuestros huesos!' WHERE (`CreatureID`='22948') AND (`GroupID`='3') AND (`ID`='0');
 
 -- Madre Shahraz --
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='0', `id`='0', `text_loc6`='Tenéis que pagar para jugar.' WHERE (`entry`='22947') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='0', `id`='1', `text_loc6`='No estoy impresionada.' WHERE (`entry`='22947') AND (`groupid`='0') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='0', `id`='2', `text_loc6`='¿Estáis disfrutando?' WHERE (`entry`='22947') AND (`groupid`='0') AND (`id`='2');
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='1', `id`='0', `text_loc6`='Y bien... ¿negocios o placer?' WHERE (`entry`='22947') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='2', `id`='0', `text_loc6`='Parecéis un poco tensos...' WHERE (`entry`='22947') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='2', `id`='1', `text_loc6`='No seáis timidos.' WHERE (`entry`='22947') AND (`groupid`='2') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='2', `id`='2', `text_loc6`='Soy toda... vuestra.' WHERE (`entry`='22947') AND (`groupid`='2') AND (`id`='2');
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='3', `id`='0', `text_loc6`='Lo que fácil viene, fácil se va.' WHERE (`entry`='22947') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='3', `id`='1', `text_loc6`='Tanto por un final feliz.' WHERE (`entry`='22947') AND (`groupid`='3') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='4', `id`='0', `text_loc6`='¡Dejad de jugar con mis sentimientos!' WHERE (`entry`='22947') AND (`groupid`='4') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22947', `groupid`='5', `id`='0', `text_loc6`='No había... terminado.' WHERE (`entry`='22947') AND (`groupid`='5') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='Tenéis que pagar para jugar.' WHERE (`CreatureID`='22947') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='0', `ID`='1', `Locale`='esES', `text`='No estoy impresionada.' WHERE (`CreatureID`='22947') AND (`GroupID`='0') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='0', `ID`='2', `Locale`='esES', `text`='¿Estáis disfrutando?' WHERE (`CreatureID`='22947') AND (`GroupID`='0') AND (`ID`='2');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='Y bien... ¿negocios o placer?' WHERE (`CreatureID`='22947') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='Parecéis un poco tensos...' WHERE (`CreatureID`='22947') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='2', `ID`='1', `Locale`='esES', `text`='No seáis timidos.' WHERE (`CreatureID`='22947') AND (`GroupID`='2') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='2', `ID`='2', `Locale`='esES', `text`='Soy toda... vuestra.' WHERE (`CreatureID`='22947') AND (`GroupID`='2') AND (`ID`='2');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='Lo que fácil viene, fácil se va.' WHERE (`CreatureID`='22947') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='3', `ID`='1', `Locale`='esES', `text`='Tanto por un final feliz.' WHERE (`CreatureID`='22947') AND (`GroupID`='3') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='¡Dejad de jugar con mis sentimientos!' WHERE (`CreatureID`='22947') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='5', `ID`='0', `Locale`='esES', `text`='No había... terminado.' WHERE (`CreatureID`='22947') AND (`GroupID`='5') AND (`ID`='0');
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='6', `ID`='0', `Locale`='esES', `Text`='¡%s entra en frenesí!' WHERE (`CreatureID`='22947') AND (`GroupID`='6') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22947', `GroupID`='7', `ID`='0', `Locale`='esES', `Text`='¡%s entra en frenesí rabioso!' WHERE (`CreatureID`='22947') AND (`GroupID`='7') AND (`ID`='0');
 
 -- Lady Malande --
-UPDATE `locales_creature_text` SET `entry`='22951', `groupid`='0', `id`='0', `text_loc6`='¡Huid o morid!' WHERE (`entry`='22951') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22951', `groupid`='1', `id`='0', `text_loc6`='¡Por Quel\'Thalas! ¡Por La Fuente del Sol!' WHERE (`entry`='22951') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22951', `groupid`='2', `id`='0', `text_loc6`='¡Sin segundas oportunidades!' WHERE (`entry`='22951') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22951', `groupid`='3', `id`='0', `text_loc6`='¡Estoy llena de sorpresas!' WHERE (`entry`='22951') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22951', `groupid`='4', `id`='0', `text_loc6`='Mi trabajo está terminado.' WHERE (`entry`='22951') AND (`groupid`='4') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22951', `groupid`='5', `id`='0', `text_loc6`='Como debe ser.' WHERE (`entry`='22951') AND (`groupid`='5') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22951', `groupid`='6', `id`='0', `text_loc6`='El destino... espera.' WHERE (`entry`='22951') AND (`groupid`='6') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22951', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Huid o morid!' WHERE (`CreatureID`='22951') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22951', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡Por Quel\'Thalas! ¡Por La Fuente del Sol!' WHERE (`CreatureID`='22951') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22951', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='¡Sin segundas oportunidades!' WHERE (`CreatureID`='22951') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22951', `GroupID`='2', `ID`='1', `Locale`='esES', `Text`='¡Estoy llena de sorpresas!' WHERE (`CreatureID`='22951') AND (`GroupID`='2') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22951', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='Mi trabajo ha terminado.' WHERE (`CreatureID`='22951') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22951', `GroupID`='4', `ID`='0', `Locale`='esES', `Text`='Como debe ser.' WHERE (`CreatureID`='22951') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22951', `GroupID`='5', `ID`='0', `Locale`='esES', `Text`='El destino... espera.' WHERE (`CreatureID`='22951') AND (`GroupID`='5') AND (`ID`='0');
+
+-- Sumo abisálico Zerevor --
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='22950', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='Lengua común, qué lenguaje tan ordinario. ¡Ban\'dal!' WHERE (`CreatureID`='22950') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22950', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡Sha\'amoor seabenal!' WHERE (`CreatureID`='22950') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22950', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='Diel fin\'al.' WHERE (`CreatureID`='22950') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22950', `GroupID`='2', `ID`='1', `Locale`='esES', `Text`='¿Sha\'amoor ara mashaal?' WHERE (`CreatureID`='22950') AND (`GroupID`='2') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22950', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='Shorel\'aran.' WHERE (`CreatureID`='22950') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22950', `GroupID`='4', `ID`='0', `Locale`='esES', `Text`='¡Belesa menoor!' WHERE (`CreatureID`='22950') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22950', `GroupID`='5', `ID`='0', `Locale`='esES', `Text`='Diel ma\'ahn... orindel\'o.' WHERE (`CreatureID`='22950') AND (`GroupID`='5') AND (`ID`='0');
 
 -- Gathios el Despedazador --
-UPDATE `locales_creature_text` SET `entry`='22949', `groupid`='0', `id`='0', `text_loc6`='Tengo mejores cosas que hacer...' WHERE (`entry`='22949') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22949', `groupid`='1', `id`='0', `text_loc6`='¡Basta de juegos!' WHERE (`entry`='22949') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22949', `groupid`='2', `id`='0', `text_loc6`='Disfrutad de vuestros últimos momentos.' WHERE (`entry`='22949') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22949', `groupid`='3', `id`='0', `text_loc6`='¡Eres MÍO!' WHERE (`entry`='22949') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22949', `groupid`='4', `id`='0', `text_loc6`='¡Selama am\'oronor!' WHERE (`entry`='22949') AND (`groupid`='4') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22949', `groupid`='5', `id`='0', `text_loc6`='¡Bien hecho!' WHERE (`entry`='22949') AND (`groupid`='5') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22949', `groupid`='6', `id`='0', `text_loc6`='Lord Illidan, yo...' WHERE (`entry`='22949') AND (`groupid`='6') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22949', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='Tengo mejores cosas que hacer...' WHERE (`CreatureID`='22949') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22949', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡Basta de juegos!' WHERE (`CreatureID`='22949') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22949', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='Disfrutad de vuestros últimos momentos.' WHERE (`CreatureID`='22949') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22949', `GroupID`='2', `ID`='1', `Locale`='esES', `Text`='¡Eres MÍO!' WHERE (`CreatureID`='22949') AND (`GroupID`='2') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22949', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='¡Selama am\'oronor!' WHERE (`CreatureID`='22949') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22949', `GroupID`='4', `ID`='0', `Locale`='esES', `Text`='¡Bien hecho!' WHERE (`CreatureID`='22949') AND (`GroupID`='4') AND (`ID`='0');
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='22949', `GroupID`='5', `ID`='0', `Locale`='esES', `Text`='Lord Illidan, yo...' WHERE (`CreatureID`='22949') AND (`GroupID`='5') AND (`ID`='0');
 
 -- Veras Sombra Oscura --
-UPDATE `locales_creature_text` SET `entry`='22952', `groupid`='0', `id`='0', `text_loc6`='¿Deseáis ponerme a prueba?' WHERE (`entry`='22952') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22952', `groupid`='1', `id`='0', `text_loc6`='¿Queréis matarme? ¡Vosotros primero!' WHERE (`entry`='22952') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22952', `groupid`='2', `id`='0', `text_loc6`='No estáis preparados para esto.' WHERE (`entry`='22952') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22952', `groupid`='3', `id`='0', `text_loc6`='¡Anar\'alah belore!' WHERE (`entry`='22952') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22952', `groupid`='4', `id`='0', `text_loc6`='Muy valiente.' WHERE (`entry`='22952') AND (`groupid`='4') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22952', `groupid`='5', `id`='0', `text_loc6`='¡Una muerte gloriosa!' WHERE (`entry`='22952') AND (`groupid`='5') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22952', `groupid`='6', `id`='0', `text_loc6`='Habéis tenido... suerte.' WHERE (`entry`='22952') AND (`groupid`='6') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22952', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¿Deseáis ponerme a prueba?' WHERE (`CreatureID`='22952') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22952', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¿Queréis matarme? ¡Vosotros primero!' WHERE (`CreatureID`='22952') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22952', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='No estáis preparados para esto.' WHERE (`CreatureID`='22952') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22952', `GroupID`='2', `ID`='1', `Locale`='esES', `Text`='¡Anar\'alah belore!' WHERE (`CreatureID`='22952') AND (`GroupID`='2') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22952', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='Muy valiente.' WHERE (`CreatureID`='22952') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22952', `GroupID`='4', `ID`='0', `Locale`='esES', `Text`='¡Una muerte gloriosa!' WHERE (`CreatureID`='22952') AND (`GroupID`='4') AND (`ID`='0');
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='22952', `GroupID`='5', `ID`='0', `Locale`='esES', `Text`='Os ha sonreído... la fortuna.' WHERE (`CreatureID`='22952') AND (`GroupID`='5') AND (`ID`='0');
 
 -- Akama (1) --
-UPDATE `locales_creature_text` SET `entry`='23191', `groupid`='0', `id`='0', `text_loc6`='Tábido de la tribu Lengua de Ceniza, tu líder habla.' WHERE (`entry`='23191') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23191', `groupid`='1', `id`='0', `text_loc6`='El Traidor ya no nos domina. ¡La magia oscura que practicaba sobre el alma Lengua de Ceniza ha sido destruida!' WHERE (`entry`='23191') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23191', `groupid`='2', `id`='0', `text_loc6`='¡Salid de las sombras! ¡He vuelto para guiaros contra vuestro verdadero enemigo! ¡Despojaos de vuestras cadenas y alzad vuestras armas contra vuestros amos Illidari!' WHERE (`entry`='23191') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23191', `groupid`='3', `id`='0', `text_loc6`='¡No duraré mucho más!' WHERE (`entry`='23191') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23191', `groupid`='4', `id`='0', `text_loc6`='¡No! ¡Aún no!' WHERE (`entry`='23191') AND (`groupid`='4') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23191', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='Tábido de la tribu Lengua de Ceniza, tu líder habla.' WHERE (`CreatureID`='23191') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23191', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='El Traidor ya no nos domina. ¡La magia oscura que practicaba sobre el alma Lengua de Ceniza ha sido destruida!' WHERE (`CreatureID`='23191') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23191', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='¡Salid de las sombras! ¡He vuelto para guiaros contra vuestro verdadero enemigo! ¡Despojaos de vuestras cadenas y alzad vuestras armas contra vuestros amos Illidari!' WHERE (`CreatureID`='23191') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23191', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¡No duraré mucho más!' WHERE (`CreatureID`='23191') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23191', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='¡No! ¡Aún no!' WHERE (`CreatureID`='23191') AND (`GroupID`='4') AND (`ID`='0');
 
 -- Akama (2) --
-UPDATE `locales_creature_text` SET `entry`='23089', `groupid`='0', `id`='0', `text_loc6`='Tened cuidado, amigos. El Traidor medita en la corte que hay justo allí.' WHERE (`entry`='23089') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23089', `groupid`='1', `id`='0', `text_loc6`='¡Yo me encargo de estos chuchos! Atacad ahora, amigos! Atacad al Traidor!' WHERE (`entry`='23089') AND (`groupid`='1') AND (`id`='0');
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='23089', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='Esta puerta es todo lo que se interpone entre el Traidor y nosotros. Apartad, amigos.' WHERE (`CreatureID`='23089') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23089', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='No puedo hacer esto solo...' WHERE (`CreatureID`='23089') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23089', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='Agradezco vuestra ayuda, hermanos. ¡Nuestro pueblo será redimido!' WHERE (`CreatureID`='23089') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23089', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='Tened cuidado, amigos. El Traidor medita en la corte que hay justo allí.' WHERE (`CreatureID`='23089') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23089', `GroupID`='4', `ID`='0', `Locale`='esES', `Text`='Hemos venido a PONER FIN a tu reinado, Illidan. Mi pueblo, y todo Terrallende, será libre.' WHERE (`CreatureID`='23089') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23089', `GroupID`='5', `ID`='0', `Locale`='esES', `Text`='¡Ha llegado la hora: es nuestro momento!' WHERE (`CreatureID`='23089') AND (`GroupID`='5') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23089', `GroupID`='6', `ID`='0', `Locale`='esES', `Text`='¡Yo me encargo de estos chuchos! Atacad ahora, amigos! Atacad al traidor!' WHERE (`CreatureID`='23089') AND (`GroupID`='6') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23089', `GroupID`='7', `ID`='0', `Locale`='esES', `Text`='La Luz volverá a bendecir estos lúgubres salones... lo juro.' WHERE (`CreatureID`='23089') AND (`GroupID`='7') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23089', `GroupID`='8', `ID`='0', `Locale`='esES', `Text`='Terminemos lo que hemos empezado. Os llevaré a la morada de Illidan una vez hayáis recuperado vuestra fuerza.' WHERE (`CreatureID`='23089') AND (`GroupID`='8') AND (`ID`='0');
+
+-- Espíritu de Udalo --
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='23410', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='No estás solo, Akama.' WHERE (`CreatureID`='23410') AND (`GroupID`='0') AND (`ID`='0');
+
+-- Espíritu de Olum --
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='23411', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Tu gente siempre estará contigo!' WHERE (`CreatureID`='23411') AND (`GroupID`='0') AND (`ID`='0');
 
 -- Illidan Tempestira --
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='0', `id`='0', `text_loc6`='Venid esbirros míos. ¡Dad a este traidor su merecido!' WHERE (`entry`='22917') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='1', `id`='0', `text_loc6`='¿Quién será el siguiente en probar mis hojas?' WHERE (`entry`='22917') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='1', `id`='1', `text_loc6`='¡Esto es demasiado fácil!' WHERE (`entry`='22917') AND (`groupid`='1') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='2', `id`='0', `text_loc6`='¡No seré tocado por gente como vosotros!' WHERE (`entry`='22917') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='3', `id`='0', `text_loc6`='¡Observad las llamas de Azzinoth!' WHERE (`entry`='22917') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='4', `id`='0', `text_loc6`='¡Mirad fijamente a los ojos del Traidor!' WHERE (`entry`='22917') AND (`groupid`='4') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='5', `id`='0', `text_loc6`='¡Contemplad el poder... del demonio interior!' WHERE (`entry`='22917') AND (`groupid`='5') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='6', `id`='0', `text_loc6`='Habéis perdido demasiado tiempo, mortales. Ahora caeréis.' WHERE (`entry`='22917') AND (`groupid`='6') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='7', `id`='0', `text_loc6`='Puedo sentir vuestro odio.' WHERE (`entry`='22917') AND (`groupid`='7') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='7', `id`='1', `text_loc6`='¡Entregaos a vuestros miedos!' WHERE (`entry`='22917') AND (`groupid`='7') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='7', `id`='2', `text_loc6`='¡No sabéis lo que es el poder!' WHERE (`entry`='22917') AND (`groupid`='7') AND (`id`='2');
-UPDATE `locales_creature_text` SET `entry`='22917', `groupid`='7', `id`='3', `text_loc6`='¡Tan... arrogante!' WHERE (`entry`='22917') AND (`groupid`='7') AND (`id`='3');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='Venid esbirros míos. ¡Dad a este traidor su merecido!' WHERE (`CreatureID`='22917') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¿Quién será el siguiente en probar mis hojas?' WHERE (`CreatureID`='22917') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='1', `ID`='1', `Locale`='esES', `text`='¡Esto es demasiado fácil!' WHERE (`CreatureID`='22917') AND (`GroupID`='1') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='¡No seré tocado por gente como vosotros!' WHERE (`CreatureID`='22917') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¡Observad las llamas de Azzinoth!' WHERE (`CreatureID`='22917') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='¡Mirad fijamente a los ojos del Traidor!' WHERE (`CreatureID`='22917') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='5', `ID`='0', `Locale`='esES', `text`='¡Contemplad el poder... del demonio interior!' WHERE (`CreatureID`='22917') AND (`GroupID`='5') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='6', `ID`='0', `Locale`='esES', `text`='Habéis perdido demasiado tiempo, mortales. Ahora caeréis.' WHERE (`CreatureID`='22917') AND (`GroupID`='6') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='7', `ID`='0', `Locale`='esES', `text`='Puedo sentir vuestro odio.' WHERE (`CreatureID`='22917') AND (`GroupID`='7') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='7', `ID`='1', `Locale`='esES', `text`='¡Entregaos a vuestros miedos!' WHERE (`CreatureID`='22917') AND (`GroupID`='7') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='7', `ID`='2', `Locale`='esES', `text`='¡No sabéis lo que es el poder!' WHERE (`CreatureID`='22917') AND (`GroupID`='7') AND (`ID`='2');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='7', `ID`='3', `Locale`='esES', `text`='¡Tan... arrogante!' WHERE (`CreatureID`='22917') AND (`GroupID`='7') AND (`ID`='3');
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='8', `ID`='0', `Locale`='esES', `Text`='Akama. Tu hipocresía no me sorprende. Debí acabar contigo y con tus malogrados hermanos hace tiempo.' WHERE (`CreatureID`='22917') AND (`GroupID`='8') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='9', `ID`='0', `Locale`='esES', `Text`='Audaces palabras. Pero no... me convencen.' WHERE (`CreatureID`='22917') AND (`GroupID`='9') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='10', `ID`='0', `Locale`='esES', `Text`='¡NO estáis preparados!' WHERE (`CreatureID`='22917') AND (`GroupID`='10') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='11', `ID`='0', `Locale`='esES', `Text`='¿Esto es todo, mortales? ¿Es esta toda la furia que podéis reunir?' WHERE (`CreatureID`='22917') AND (`GroupID`='11') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='12', `ID`='0', `Locale`='esES', `Text`='Maiev... ¿Cómo es posible?' WHERE (`CreatureID`='22917') AND (`GroupID`='12') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='13', `ID`='0', `Locale`='esES', `Text`='¡Siente el odio de diez mil años!' WHERE (`CreatureID`='22917') AND (`GroupID`='13') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='22917', `GroupID`='14', `ID`='0', `Locale`='esES', `Text`='Has ganado... Maiev. Pero la cazadora... no es NADA... sin su presa. TÚ... no eres... nada... sin mí.' WHERE (`CreatureID`='22917') AND (`GroupID`='14') AND (`ID`='0');
 
 -- Maiev Cantosombrío --
-UPDATE `locales_creature_text` SET `entry`='23197', `groupid`='0', `id`='0', `text_loc6`='¡Esto es por Naisha!' WHERE (`entry`='23197') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='23197', `groupid`='0', `id`='1', `text_loc6`='¡Sangra como yo he sangrado!' WHERE (`entry`='23197') AND (`groupid`='0') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='23197', `groupid`='0', `id`='2', `text_loc6`='¡Esta vez no habrá prisión para ti!' WHERE (`entry`='23197') AND (`groupid`='0') AND (`id`='2');
-UPDATE `locales_creature_text` SET `entry`='23197', `groupid`='0', `id`='3', `text_loc6`='¡Conoce tu final, demonio!' WHERE (`entry`='23197') AND (`groupid`='0') AND (`id`='3');
+UPDATE `creature_text_locale` SET `CreatureID`='23197', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Esto es por Naisha!' WHERE (`CreatureID`='23197') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23197', `GroupID`='0', `ID`='1', `Locale`='esES', `Text`='¡Sangra como yo he sangrado!' WHERE (`CreatureID`='23197') AND (`GroupID`='0') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='23197', `GroupID`='0', `ID`='3', `Locale`='esES', `Text`='¡Conoce tu final, demonio!' WHERE (`CreatureID`='23197') AND (`GroupID`='0') AND (`ID`='3');
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='23197', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='Su furia no es nada comparada con la mía, Illidan. Tenemos asuntos pendientes.' WHERE (`CreatureID`='23197') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23197', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='Por fin concluye mi larga caza. ¡Hoy se hará justicia!' WHERE (`CreatureID`='23197') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23197', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='¡Esta vez no habrá prisión para ti!' WHERE (`CreatureID`='23197') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23197', `GroupID`='4', `ID`='0', `Locale`='esES', `Text`='%s cae al suelo.' WHERE (`CreatureID`='23197') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23197', `GroupID`='5', `ID`='0', `Locale`='esES', `Text`='Se acabó. Has perdido.' WHERE (`CreatureID`='23197') AND (`GroupID`='5') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23197', `GroupID`='6', `ID`='0', `Locale`='esES', `Text`='Tiene razón. No siento nada... no soy... nada.' WHERE (`CreatureID`='23197') AND (`GroupID`='6') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='23197', `GroupID`='7', `ID`='0', `Locale`='esES', `Text`='Adiós, campeones.' WHERE (`CreatureID`='23197') AND (`GroupID`='7') AND (`ID`='0');

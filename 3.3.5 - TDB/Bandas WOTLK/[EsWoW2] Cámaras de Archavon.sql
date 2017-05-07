@@ -2,10 +2,10 @@
 -- CÁMARA DE ARCHAVON --
 
 -- Emalon --
-UPDATE `locales_creature_text` SET `entry`='33993', `groupid`='0', `id`='0', `text_loc6`='¡%s sobrecarga a un esbirro tempestuoso!' WHERE (`entry`='33993') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='33993', `groupid`='1', `id`='0', `text_loc6`='¡Aparece un esbirro tempestuoso para defender a %s!' WHERE (`entry`='33993') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='33993', `groupid`='2', `id`='0', `text_loc6`='¡%s entra en frenesí asesino!' WHERE (`entry`='33993') AND (`groupid`='2') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='33993', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡%s sobrecarga a un esbirro tempestuoso!' WHERE (`CreatureID`='33993') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='33993', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡Aparece un esbirro tempestuoso para defender a %s!' WHERE (`CreatureID`='33993') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='33993', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='¡%s entra en frenesí asesino!' WHERE (`CreatureID`='33993') AND (`GroupID`='2') AND (`ID`='0');
 
 -- Archavon el Vigía de Piedra --
-UPDATE `locales_creature_text` SET `entry`='31125', `groupid`='0', `id`='0', `text_loc6`='¡%s entra en frenesí asesino!' WHERE (`entry`='31125') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='31125', `groupid`='1', `id`='0', `text_loc6`='¡%s arremete sobre $N!' WHERE (`entry`='31125') AND (`groupid`='1') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='31125', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡%s entra en frenesí asesino!' WHERE (`CreatureID`='31125') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='31125', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡%s arremete sobre $N!' WHERE (`CreatureID`='31125') AND (`GroupID`='1') AND (`ID`='0');

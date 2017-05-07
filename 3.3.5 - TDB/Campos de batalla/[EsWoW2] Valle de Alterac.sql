@@ -129,3 +129,6 @@ UPDATE `creature_text_locale` SET `CreatureID`='11947', `GroupID`='2', `ID`='0',
 -- Comandante del aire Slidore --
 ¡Cúbreme, voy a por todas!
 */
+
+-- Alfa Zarpa Salvaje --
+UPDATE `creature_text_locale` SET `CreatureID`='11840', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡%s entra en frenesí!' WHERE (`CreatureID`='11840') AND (`GroupID`='0') AND (`ID`='0');
