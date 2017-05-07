@@ -100,6 +100,10 @@ UPDATE `creature_text_locale` SET `CreatureID`='16060', `GroupID`='8', `ID`='0',
 -- Atracador de la cripta --
 UPDATE `creature_text_locale` SET `CreatureID`='15978', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡%s entra en frenesí!' WHERE (`CreatureID`='15978') AND (`GroupID`='0') AND (`ID`='0');
 
+-- Necrófago apestado --
+/* (NUEVO) Añadido 07/05/2017*/
+UPDATE `creature_text_locale` SET `CreatureID`='16447', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡% entra en frenesí!' WHERE (`CreatureID`='16447') AND (`GroupID`='0') AND (`ID`='0');
+
 -- Anub'Rekhan --
 UPDATE `creature_text_locale` SET `CreatureID`='15956', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='Solo un bocado...' WHERE (`CreatureID`='15956') AND (`GroupID`='0') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='15956', `GroupID`='0', `ID`='1', `Locale`='esES', `text`='No hay salida.' WHERE (`CreatureID`='15956') AND (`GroupID`='0') AND (`ID`='1');

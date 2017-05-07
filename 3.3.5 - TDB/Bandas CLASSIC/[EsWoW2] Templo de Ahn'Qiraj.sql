@@ -2,44 +2,44 @@
 -- TEMPLO DE AHN'QIRAJ --
 
 -- Defensor Anubisath --
-UPDATE `locales_creature_text` SET `entry`='15277', `groupid`='0', `id`='0', `text_loc6`='¡%s entra en frenesí!' WHERE (`entry`='15277') AND (`groupid`='0') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15277', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡%s entra en frenesí!' WHERE (`CreatureID`='15277') AND (`GroupID`='0') AND (`ID`='0');
 
 -- Campeón qiraji --
-UPDATE `locales_creature_text` SET `entry`='15252', `groupid`='0', `id`='0', `text_loc6`='¡%s entra en frenesí!' WHERE (`entry`='15252') AND (`groupid`='0') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15252', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡%s entra en frenesí!' WHERE (`CreatureID`='15252') AND (`GroupID`='0') AND (`ID`='0');
 
 -- El profeta Skeram --
-UPDATE `locales_creature_text` SET `entry`='15263', `groupid`='0', `id`='0', `text_loc6`='¿Tan deseosos estáis de morir? Permitidme que os complazca...' WHERE (`entry`='15263') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15263', `groupid`='0', `id`='1', `text_loc6`='¡Temblad, mortales! La era de oscuridad está cerca.' WHERE (`entry`='15263') AND (`groupid`='0') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='15263', `groupid`='0', `id`='2', `text_loc6`='¡Temblad! El fin cae sobre vosotros.' WHERE (`entry`='15263') AND (`groupid`='0') AND (`id`='2');
-UPDATE `locales_creature_text` SET `entry`='15263', `groupid`='1', `id`='0', `text_loc6`='¡Que tu muerte sirva de ejemplo!' WHERE (`entry`='15263') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15263', `groupid`='1', `id`='1', `text_loc6`='¡Desgraciados! ¡Os ahogaréis en ríos de sangre!' WHERE (`entry`='15263') AND (`groupid`='1') AND (`id`='1');
-UPDATE `locales_creature_text` SET `entry`='15263', `groupid`='1', `id`='2', `text_loc6`='Los gritos agonizantes surcarán el aire. ¡Una sinfonía de terror está por comenzar!' WHERE (`entry`='15263') AND (`groupid`='1') AND (`id`='2');
-UPDATE `locales_creature_text` SET `entry`='15263', `groupid`='2', `id`='0', `text_loc6`='¡Preparaos para el retorno de los Antiguos!' WHERE (`entry`='15263') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15263', `groupid`='3', `id`='0', `text_loc6`='¡Únicamente estáis aplazando lo inevitable!' WHERE (`entry`='15263') AND (`groupid`='3') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15263', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¿Tan deseosos estáis de morir? Permitidme que os complazca...' WHERE (`CreatureID`='15263') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15263', `GroupID`='0', `ID`='1', `Locale`='esES', `text`='¡Temblad, mortales! La era de oscuridad está cerca.' WHERE (`CreatureID`='15263') AND (`GroupID`='0') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='15263', `GroupID`='0', `ID`='2', `Locale`='esES', `text`='¡Temblad! El fin cae sobre vosotros.' WHERE (`CreatureID`='15263') AND (`GroupID`='0') AND (`ID`='2');
+UPDATE `creature_text_locale` SET `CreatureID`='15263', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡Que tu muerte sirva de ejemplo!' WHERE (`CreatureID`='15263') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15263', `GroupID`='1', `ID`='1', `Locale`='esES', `text`='¡Desgraciados! ¡Os ahogaréis en ríos de sangre!' WHERE (`CreatureID`='15263') AND (`GroupID`='1') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='15263', `GroupID`='1', `ID`='2', `Locale`='esES', `text`='Los gritos agonizantes surcarán el aire. ¡Una sinfonía de terror está por comenzar!' WHERE (`CreatureID`='15263') AND (`GroupID`='1') AND (`ID`='2');
+UPDATE `creature_text_locale` SET `CreatureID`='15263', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='¡Preparaos para el retorno de los Antiguos!' WHERE (`CreatureID`='15263') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15263', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¡Únicamente estáis aplazando lo inevitable!' WHERE (`CreatureID`='15263') AND (`GroupID`='3') AND (`ID`='0');
 
 -- Guardián Vekniss --
-UPDATE `locales_creature_text` SET `entry`='15233', `groupid`='0', `id`='0', `text_loc6`='%s emite un extraño sonido.' WHERE (`entry`='15233') AND (`groupid`='0') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15233', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='%s emite un extraño sonido.' WHERE (`CreatureID`='15233') AND (`GroupID`='0') AND (`ID`='0');
 
 -- Guardia de batalla Sartura --
-UPDATE `locales_creature_text` SET `entry`='15516', `groupid`='0', `id`='0', `text_loc6`='¡Seréis juzgados por haber profanado este suelo sagrado!' WHERE (`entry`='15516') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15516', `groupid`='1', `id`='0', `text_loc6`='¡Os sentencio a muerte!' WHERE (`entry`='15516') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15516', `groupid`='2', `id`='0', `text_loc6`='¡Lucharé hasta el final!' WHERE (`entry`='15516') AND (`groupid`='2') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15516', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡Seréis juzgados por haber profanado este suelo sagrado!' WHERE (`CreatureID`='15516') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15516', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡Os sentencio a muerte!' WHERE (`CreatureID`='15516') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15516', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='¡Lucharé hasta el final!' WHERE (`CreatureID`='15516') AND (`GroupID`='2') AND (`ID`='0');
 
 -- Princesa Huhuran --
-UPDATE `locales_creature_text` SET `entry`='15509', `groupid`='0', `id`='0', `text_loc6`='¡%s entra en frenesí asesino!' WHERE (`entry`='15509') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15509', `groupid`='1', `id`='0', `text_loc6`='¡%s monta en cólera!' WHERE (`entry`='15509') AND (`groupid`='1') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15509', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡%s entra en frenesí asesino!' WHERE (`CreatureID`='15509') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15509', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡%s monta en cólera!' WHERE (`CreatureID`='15509') AND (`GroupID`='1') AND (`ID`='0');
 
 -- Viscidus --
-UPDATE `locales_creature_text` SET `entry`='15299', `groupid`='0', `id`='0', `text_loc6`='¡%s comienza a ir más despacio!' WHERE (`entry`='15299') AND (`groupid`='0') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15299', `groupid`='1', `id`='0', `text_loc6`='¡%s se está congelando!' WHERE (`entry`='15299') AND (`groupid`='1') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15299', `groupid`='2', `id`='0', `text_loc6`='¡%s no se puede mover!' WHERE (`entry`='15299') AND (`groupid`='2') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15299', `groupid`='3', `id`='0', `text_loc6`='¡%s comienza a desmoronarse!' WHERE (`entry`='15299') AND (`groupid`='3') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15299', `groupid`='4', `id`='0', `text_loc6`='¡%s parece a punto de hacerse añicos!' WHERE (`entry`='15299') AND (`groupid`='4') AND (`id`='0');
-UPDATE `locales_creature_text` SET `entry`='15299', `groupid`='5', `id`='0', `text_loc6`='¡%s explota!' WHERE (`entry`='15299') AND (`groupid`='5') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15299', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡%s comienza a ir más despacio!' WHERE (`CreatureID`='15299') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15299', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='¡%s se está congelando!' WHERE (`CreatureID`='15299') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15299', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='¡%s no se puede mover!' WHERE (`CreatureID`='15299') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15299', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¡%s comienza a desmoronarse!' WHERE (`CreatureID`='15299') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15299', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='¡%s parece a punto de hacerse añicos!' WHERE (`CreatureID`='15299') AND (`GroupID`='4') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15299', `GroupID`='5', `ID`='0', `Locale`='esES', `text`='¡%s explota!' WHERE (`CreatureID`='15299') AND (`GroupID`='5') AND (`ID`='0');
 
 -- Ouro: tengo los textos, pero faltan creature_text por parte de TrinityCore --
 
 -- Emperadores Gemelos: tengo los textos, pero faltan creature_text por parte de TrinityCore --
 
 -- C'Thun --
-UPDATE `locales_creature_text` SET `entry`='15727', `groupid`='0', `id`='0', `text_loc6`='¡%s está débil!' WHERE (`entry`='15727') AND (`groupid`='0') AND (`id`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='15727', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='¡%s está débil!' WHERE (`CreatureID`='15727') AND (`GroupID`='0') AND (`ID`='0');
