@@ -1,6 +1,19 @@
 ﻿
 -- EL CASTILLO DE LA TEMPESTAD --
 
+/* Textos faltantes en la base de datos.
+
+-- Legionario Depositario de Sangre (20031) --
+¡Nuestras espadas y nuestros hechizos están listos!
+
+-- Mariscal Depositario de sangre (20035)
+Estoy orgulloso de ti.
+
+-- Centinela Núcleo de Cristal (20041) --
+¡La mano de %s comienza a brillar de energía Arcana!
+
+*/
+
 -- Gran astromante Solarian --
 UPDATE `creature_text_locale` SET `CreatureID`='18805', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Tal anu\'men no sin\'dorei!' WHERE (`CreatureID`='18805') AND (`GroupID`='0') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='18805', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡Os superamos con creces!' WHERE (`CreatureID`='18805') AND (`GroupID`='1') AND (`ID`='0');
@@ -59,16 +72,3 @@ UPDATE `creature_text_locale` SET `CreatureID`='20062', `GroupID`='1', `ID`='0',
 -- Maestro ingeniero Telonicus --
 UPDATE `creature_text_locale` SET `CreatureID`='20063', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Anar\'alah belore!' WHERE (`CreatureID`='20063') AND (`GroupID`='0') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='20063', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='Más peligros... acechan...' WHERE (`CreatureID`='20063') AND (`GroupID`='1') AND (`ID`='0');
-
-/* Textos faltantes en la base de datos.
-
--- Legionario Depositario de Sangre (20031) --
-¡Nuestras espadas y nuestros hechizos están listos!
-
--- Mariscal Depositario de sangre (20035)
-Estoy orgulloso de ti.
-
--- Centinela Núcleo de Cristal (20041) --
-¡La mano de %s comienza a brillar de energía Arcana!
-
-*/

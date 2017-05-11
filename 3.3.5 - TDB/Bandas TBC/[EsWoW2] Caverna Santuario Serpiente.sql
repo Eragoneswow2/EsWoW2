@@ -1,6 +1,29 @@
 ﻿
 -- CAVERNA SANTUARIO SERPIENTE --
 
+/* Textos faltantes en la base de datos.
+
+-- Vidente Olum --
+Los nagas casi logran que me rinda... pero el secreto aún está a salvo, gracias a ti.
+
+-- Guardia de honor de Vashj'ir --
+Estamos cumpliendo los objetivos.
+¡Ya basta! ¡Ya he tenido bastante con vosotros, sucios sangre caliente!
+Las cosas están saliendo según lo planeado.
+No hemos terminado nuestro trabajo.
+
+-- Bruja de las profundidades Colmillo Torcido --
+¡Mantente alerta!
+
+-- Despedazador Colmillo Torcido --
+Así es.
+
+-- Sacerdotisa Colmillo Torcido --
+¿Qué tienes en mente, señor?
+Es como si leyeras mis pensamientos.
+
+*/
+
 -- Hydross el Inestable --
 UPDATE `creature_text_locale` SET `CreatureID`='21216', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡No puedo permitir que interferáis!' WHERE (`CreatureID`='21216') AND (`GroupID`='0') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='21216', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='Mejor, mucho mejor.' WHERE (`CreatureID`='21216') AND (`GroupID`='1') AND (`ID`='0');
@@ -74,26 +97,3 @@ UPDATE `creature_text_locale` SET `CreatureID`='21212', `GroupID`='6', `ID`='0',
 UPDATE `creature_text_locale` SET `CreatureID`='21212', `GroupID`='6', `ID`='1', `Locale`='esES', `Text`='¡Has fracasado!' WHERE (`CreatureID`='21212') AND (`GroupID`='6') AND (`ID`='1');
 UPDATE `creature_text_locale` SET `CreatureID`='21212', `GroupID`='6', `ID`='2', `Locale`='esES', `Text`='¡Be\'lemer an-delei!' WHERE (`CreatureID`='21212') AND (`GroupID`='6') AND (`ID`='2');
 UPDATE `creature_text_locale` SET `CreatureID`='21212', `GroupID`='7', `ID`='0', `Locale`='esES', `Text`='Lord Illidan, lo... lo... siento.' WHERE (`CreatureID`='21212') AND (`GroupID`='7') AND (`ID`='0');
-
-/* Textos faltantes en la base de datos.
-
--- Vidente Olum --
-Los nagas casi logran que me rinda... pero el secreto aún está a salvo, gracias a ti.
-
--- Guardia de honor de Vashj'ir --
-Estamos cumpliendo los objetivos.
-¡Ya basta! ¡Ya he tenido bastante con vosotros, sucios sangre caliente!
-Las cosas están saliendo según lo planeado.
-No hemos terminado nuestro trabajo.
-
--- Bruja de las profundidades Colmillo Torcido --
-¡Mantente alerta!
-
--- Despedazador Colmillo Torcido --
-Así es.
-
--- Sacerdotisa Colmillo Torcido --
-¿Qué tienes en mente, señor?
-Es como si leyeras mis pensamientos.
-
-*/
