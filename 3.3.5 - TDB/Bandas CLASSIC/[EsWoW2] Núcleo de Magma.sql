@@ -20,7 +20,7 @@ Muy bien, $N.
 */
 
 -- Barón Geddon --
-UPDATE `creature_text_locale` SET `CreatureID`='12056', `GroupID`='0', `ID`='0', `Locale`='', `Text`='%s realiza un último servicio para Ragnaros...' WHERE (`CreatureID`='12056') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='12056', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='%s realiza un último servicio para Ragnaros...' WHERE (`CreatureID`='12056') AND (`GroupID`='0') AND (`ID`='0');
 
 -- Furibundo del Núcleo --
 UPDATE `creature_text_locale` SET `CreatureID`='11672', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='%s se niega a morir mientras su maestro esté amenazado.' WHERE (`CreatureID`='11672') AND (`GroupID`='0') AND (`ID`='0');
