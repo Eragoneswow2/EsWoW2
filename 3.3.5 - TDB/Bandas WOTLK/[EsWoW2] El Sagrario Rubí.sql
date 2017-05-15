@@ -12,7 +12,7 @@ UPDATE `creature_text_locale` SET `CreatureID`='39746', `GroupID`='3', `ID`='0',
 UPDATE `creature_text_locale` SET `CreatureID`='39751', `GroupID`='0', `ID`='0', `Locale`='esES', `text`='Tu poder decae, ancestro. Pronto te unirás a tus amigos.' WHERE (`CreatureID`='39751') AND (`GroupID`='0') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='39751', `GroupID`='1', `ID`='0', `Locale`='esES', `text`='Ah, ha llegado la diversión.' WHERE (`CreatureID`='39751') AND (`GroupID`='1') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='39751', `GroupID`='2', `ID`='0', `Locale`='esES', `text`='¡Baltharus no deja supervivientes!' WHERE (`CreatureID`='39751') AND (`GroupID`='2') AND (`ID`='0');
-UPDATE `creature_text_locale` SET `CreatureID`='39751', `GroupID`='2', `ID`='1', `Locale`='esES', `text`='¡Ya hay suficientes héroes en este mundo!' WHERE (`CreatureID`='39751') AND (`GroupID`='2') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='39751', `GroupID`='2', `ID`='1', `Locale`='esES', `text`='Ya hay suficientes héroes en este mundo...' WHERE (`CreatureID`='39751') AND (`GroupID`='2') AND (`ID`='1');
 UPDATE `creature_text_locale` SET `CreatureID`='39751', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='El doble de dolor y la mitad de diversión.' WHERE (`CreatureID`='39751') AND (`GroupID`='3') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='39751', `GroupID`='4', `ID`='1', `Locale`='esES', `text`='No lo vi venir...' WHERE (`CreatureID`='39751') AND (`GroupID`='4') AND (`ID`='1');
 
@@ -23,7 +23,7 @@ UPDATE `creature_text_locale` SET `CreatureID`='39863', `GroupID`='2', `ID`='0',
 UPDATE `creature_text_locale` SET `CreatureID`='39863', `GroupID`='3', `ID`='0', `Locale`='esES', `text`='¡Los cielos arden!' WHERE (`CreatureID`='39863') AND (`GroupID`='3') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='39863', `GroupID`='4', `ID`='0', `Locale`='esES', `text`='En el reino del crepúsculo solo encontraréis sufrimiento. ¡Entrad si os atrevéis!' WHERE (`CreatureID`='39863') AND (`GroupID`='4') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='39863', `GroupID`='5', `ID`='0', `Locale`='esES', `text`='Disfrutad la victoria, mortales, porque será la última. ¡Este mundo arderá cuando vuelva el maestro!' WHERE (`CreatureID`='39863') AND (`GroupID`='5') AND (`ID`='0');
-UPDATE `creature_text_locale` SET `CreatureID`='39863', `GroupID`='6', `ID`='0', `Locale`='esES', `text`='Otro \"héroe\" cae.' WHERE (`CreatureID`='39863') AND (`GroupID`='6') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='39863', `GroupID`='6', `ID`='0', `Locale`='esES', `text`='Cae otro \"héroe\".' WHERE (`CreatureID`='39863') AND (`GroupID`='6') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='39863', `GroupID`='7', `ID`='0', `Locale`='esES', `text`='No es suficiente...' WHERE (`CreatureID`='39863') AND (`GroupID`='7') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='39863', `GroupID`='8', `ID`='0', `Locale`='esES', `text`='¡Tus esfuerzos obligan a Halion a abandonar el reino físico!' WHERE (`CreatureID`='39863') AND (`GroupID`='8') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='39863', `GroupID`='9', `ID`='0', `Locale`='esES', `text`='¡Los esfuerzos de tu compañero obligan a Halion a adentrarse más en el reino físico!' WHERE (`CreatureID`='39863') AND (`GroupID`='9') AND (`ID`='0');
