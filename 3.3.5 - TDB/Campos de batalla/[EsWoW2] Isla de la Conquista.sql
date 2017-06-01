@@ -31,10 +31,10 @@ La batalla comenzará en 15 segundos.
 UPDATE `creature_text_locale` SET `CreatureID`='34924', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Han atravesado las puertas! ¡Defended la fortaleza!' WHERE (`CreatureID`='34924') AND (`GroupID`='0') AND (`ID`='0');
 
 -- Capitán de la nave de guerra de la Alianza --
-UPDATE `creature_text_locale` SET `CreatureID`='34960', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Todos a bordo de la nave de guerra! ¡A las armas!' WHERE (`CreatureID`='34960') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='34960', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Subid a bordo de la nave de guerra! ¡Encargaos de las armas!' WHERE (`CreatureID`='34960') AND (`GroupID`='0') AND (`ID`='0');
 
 -- Capitán de la nave de guerra de la Horda --
-UPDATE `creature_text_locale` SET `CreatureID`='35003', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Todos a bordo de la nave de guerra! ¡A las armas!' WHERE (`CreatureID`='35003') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='35003', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Subid a bordo de la nave de guerra! ¡Encargaos de las armas!' WHERE (`CreatureID`='35003') AND (`GroupID`='0') AND (`ID`='0');
 
 /*
 -- Señor supremo Agmar (34922) --

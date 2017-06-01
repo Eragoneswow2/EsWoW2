@@ -83,19 +83,19 @@ UPDATE `creature_text_locale` SET `CreatureID`='11677', `GroupID`='0', `ID`='0',
 
 -- Capitana Balinda Piedrahogar --
 UPDATE `creature_text_locale` SET `CreatureID`='11949', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Largo, escoria apestosa! ¡La Alianza reinará en el Valle de Alterac!' WHERE (`CreatureID`='11949') AND (`GroupID`='0') AND (`ID`='0');
-UPDATE `creature_text_locale` SET `CreatureID`='11949', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡Cobardes Lobo Gélido! ¡Si queréis pelear, tendréis que venir a mí!' WHERE (`CreatureID`='11949') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='11949', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡Cobardes asquerosos Lobo Gélido! ¡Si queréis luchar, venid a mí!' WHERE (`CreatureID`='11949') AND (`GroupID`='1') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='11949', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='¡Ánimo, Alianza! ¡Acabad con esos villanos del Valle de Alterac!' WHERE (`CreatureID`='11949') AND (`GroupID`='2') AND (`ID`='0');
 
 -- Drek'Thar --
 UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Escoria Pico Tormenta! ¿¿En mi bastión?? ¡Acabad con ellos!' WHERE (`CreatureID`='11946') AND (`GroupID`='0') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¿Pretendes sacar al general de la legión Lobo Gélido de su fortaleza? ¡QUÉ RIDICULEZ!' WHERE (`CreatureID`='11946') AND (`GroupID`='1') AND (`ID`='0');
-UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='¡Debiluchos Pico Tormenta! ¡Enfrentaos a mi dentro de mi fortaleza si os atrevéis!' WHERE (`CreatureID`='11946') AND (`GroupID`='2') AND (`ID`='0');
-UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='¡Creo que vuestros ataques son ralentizados por el frío!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='0');
-UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='1', `Locale`='esES', `Text`='¡Hoy conoceréis vuestros ancestros!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='1');
-UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='2', `Locale`='esES', `Text`='¡Si no abandonáis el Valle de Alterac por vuestro propio pie, los Lobo Gélido nos veremos obligados a actuar!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='2');
-UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='3', `Locale`='esES', `Text`='¡No podéis derrotar al clan Lobo Gélido!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='3');
-UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='4', `Locale`='esES', `Text`='¡No sois rivales para el poder de la Horda!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='4');
-UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='5', `Locale`='esES', `Text`='¡No dejéis supervivientes!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='5');
+UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='¡Peleles Pico Tormenta, enfrentaos a mí en mi fortaleza si os atrevéis!' WHERE (`CreatureID`='11946') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='Creo que el frío ralentiza vuestros ataques.' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='1', `Locale`='esES', `Text`='¡Hoy, conoceréis a vuestros ancestros!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='2', `Locale`='esES', `Text`='Si no os vais del Valle de Alterac por vuestro propio pie, ¡los Lobo Gélido se encargarán de ello!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='2');
+UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='3', `Locale`='esES', `Text`='¡No podéis vencer al clan Lobo Gélido!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='3');
+UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='4', `Locale`='esES', `Text`='¡No sois rival para la fuerza de la Horda!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='4');
+UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='5', `Locale`='esES', `Text`='¡Que no quede nadie con vida!' WHERE (`CreatureID`='11946') AND (`GroupID`='3') AND (`ID`='5');
 
 /*
 -- Comandante del aire Mulverick --
@@ -103,17 +103,17 @@ UPDATE `creature_text_locale` SET `CreatureID`='11946', `GroupID`='3', `ID`='5',
 */
 
 -- Vanndar Pico Tormenta --
-UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Soldados de Pico Tormenta, están atacando a vuestro general! ¡Necesito ayuda! ¡Vamos! ¡Venid! ¡Matad a esos asquerosos perros Lobo Gélido!' WHERE (`CreatureID`='11948') AND (`GroupID`='0') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Soldados de Pico Tormenta, están atacando a vuestro general! ¡Necesito ayuda! ¡Vamos! ¡Venid! Matad a esos asquerosos perros Lobo Gélido.' WHERE (`CreatureID`='11948') AND (`GroupID`='0') AND (`ID`='0');
 UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡Nunca me sacaréis del búnker, paganos!' WHERE (`CreatureID`='11948') AND (`GroupID`='1') AND (`ID`='0');
-UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='1', `ID`='1', `Locale`='esES', `Text`='¿Por qué no lo intentáis de nuevo sin trucos baratos, cobardes ? ¿O es que sois demasiado gallinas?' WHERE (`CreatureID`='11948') AND (`GroupID`='1') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='1', `ID`='1', `Locale`='esES', `Text`='¿Por qué no lo intentáis sin vuestras tácticas baratas, babosos? ¿¿¿O sois demasiado gallinas???' WHERE (`CreatureID`='11948') AND (`GroupID`='1') AND (`ID`='1');
 UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='Te lo diré las veces que haga falta... el Valle de Alterac será nuestro.' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='0');
-UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='1', `Locale`='esES', `Text`='Tus ataques son débiles. Ve a practicar con varios conejos y vuelve cuando seas más fuerte.' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='1');
+UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='1', `Locale`='esES', `Text`='¡Tus ataques son débiles! Vete a practicar con algunos conejos y vuelve cuando te hayas fortalecido.' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='1');
 UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='2', `Locale`='esES', `Text`='¡Nadie nos apartará de nuestra misión!' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='2');
-UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='3', `Locale`='esES', `Text`='¡Necesitaréis algo más que esta chusma para acabar conmigo!' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='3');
-UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='4', `Locale`='esES', `Text`='¡La Alianza prevalecerá!' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='4');
-UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='5', `Locale`='esES', `Text`='¡El clan Pico Tormenta no se inclina ante nadie, y menos ante la Horda!' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='5');
-UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='6', `Locale`='esES', `Text`='¿Esto es lo mejor que podéis hacer?' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='6');
-UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='¡Sin prisioneros! ¡Expulsad a estos paganos de nuestras tierras!' WHERE (`CreatureID`='11948') AND (`GroupID`='3') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='3', `Locale`='esES', `Text`='¡Va a ser necesario algo más que vuestra chusma para acabar conmigo!' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='3');
+UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='4', `Locale`='esES', `Text`='¡Somos la Alianza y venceremos!' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='4');
+UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='5', `Locale`='esES', `Text`='¡El clan Pico Tormenta no se somete a nadie, especialmente a la Horda!' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='5');
+UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='2', `ID`='6', `Locale`='esES', `Text`='¿Es eso lo mejor que puedes hacer?' WHERE (`CreatureID`='11948') AND (`GroupID`='2') AND (`ID`='6');
+UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='3', `ID`='0', `Locale`='esES', `Text`='¡Ejecutad a todos los prisioneros! ¡Expulsad a estos infieles de nuestras tierras!' WHERE (`CreatureID`='11948') AND (`GroupID`='3') AND (`ID`='0');
 
 /*
 -- Comandante del aire Ichman --
@@ -122,8 +122,8 @@ UPDATE `creature_text_locale` SET `CreatureID`='11948', `GroupID`='3', `ID`='0',
 
 -- Capitán Galvangar --
 UPDATE `creature_text_locale` SET `CreatureID`='11947', `GroupID`='0', `ID`='0', `Locale`='esES', `Text`='¡Muere! ¡No hay lugar para los tuyos en el Valle de Alterac!' WHERE (`CreatureID`='11947') AND (`GroupID`='0') AND (`ID`='0');
-UPDATE `creature_text_locale` SET `CreatureID`='11947', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡Nunca me derrotaréis con eso, escoria! Si queréis luchar, será en mi guarida y bajo mis normas.' WHERE (`CreatureID`='11947') AND (`GroupID`='1') AND (`ID`='0');
-UPDATE `creature_text_locale` SET `CreatureID`='11947', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='¡Ha llegado el momento de atacar! ¡Por la Horda!' WHERE (`CreatureID`='11947') AND (`GroupID`='2') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='11947', `GroupID`='1', `ID`='0', `Locale`='esES', `Text`='¡Nunca caería en una trampa así, imbécil! Si quieres una batalla, será según mis condiciones y en mi guarida.' WHERE (`CreatureID`='11947') AND (`GroupID`='1') AND (`ID`='0');
+UPDATE `creature_text_locale` SET `CreatureID`='11947', `GroupID`='2', `ID`='0', `Locale`='esES', `Text`='¡Es hora de atacar! ¡Por la Horda!' WHERE (`CreatureID`='11947') AND (`GroupID`='2') AND (`ID`='0');
 
 /*
 -- Comandante del aire Slidore --
